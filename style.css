@@ -1,0 +1,569 @@
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration:none;
+}
+.max-width{
+	max-width: 1300px;
+	padding: 50 100px;
+	margin: auto;
+}
+
+/* Style for Navigation Bar */
+.navbar{
+	position: relative;
+	width: 100%
+	padding: 15px 0px;
+	font-family: 'Futura LtCn BT', sans-serif;
+	background: darkred;
+	z-index: 1;
+}
+.navbar.sticky{
+	padding: 15px;
+	background: peachpuff;
+}
+.navbar .max-width{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar .logo a{
+	color: white;
+	font-size: 45px;
+	font-weight: 700;
+}
+.navbar .logo a:hover{
+	color: black;
+
+}
+.navbar .menu li{
+	list-style: none;
+	display: inline-block;
+
+}
+.navbar .menu li a{
+	display: block;
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	margin-left: 15px;
+	transition: all 0.3s linear;
+
+}
+.navbar .menu li a:hover{
+	color: black;
+}
+
+/* Menu Button */
+
+.menu-btn{
+	cursor: pointer;
+}
+
+/* Style for Home Section */
+
+.home{
+	display: flex;
+	background: url("images/taylor30.png") no-repeat center;
+	height: 100vh;
+	color: white;
+	min-height: 500px;
+	max-height: 840px;
+	background-size: cover;
+	background-attachment: scroll;
+	font-family: 'Futura MdCn BT', sans-serif;
+}
+.home .max-width{
+	margin: auto 30 auto 0px;
+}
+.home. .home-content .text-1{
+	font-size: 1000px;
+}
+.home .home-content a{
+	display: inline-block;
+	background: peachpuff;
+	color: darkred;
+	font-size: 30px;
+	padding: 12px 36px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 2px;
+	transition: all 0.5s linear;
+
+
+}
+.home .home-content a:hover{
+	color: black;
+	background: darkred;
+}
+
+
+/* Style for About Section */
+section{
+	padding: 100px 0;
+
+}
+.about{
+	display: flex;
+	background: url("images/taylor3.jpg") no-repeat center;
+	background-size: cover;
+	background-attachment: scroll;
+	background-position: right;
+	font-family: IM FELL DW Pica, sans-serif;
+	color: lightgray;
+}
+.about .title{
+	text-align: right;
+	font-size: 40px;
+	color: darkslategrey;
+	padding-bottom: 50px;	
+}
+.about .about-content{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: right;
+	justify-content: space-between;
+}
+.about .about-content .left{
+	width: 45%;
+}
+.about .about-content .left img{
+	height: 300px;
+	width: 300px;
+	object-fit: contain;
+	border-radius: 18px;
+}
+.about .about-content .right{
+	width: 55%;
+}
+.about .about-content .right .text{
+	margin-bottom: 10px;
+}
+.about .about-content .right p{
+	font-size: 20px;
+	text-align: justify;
+
+}
+
+/* Style for Services */
+.services{
+	color: black;
+	background: url(images/taylor55.png);
+
+}
+.services .title{
+	font-family: Futura MdCn BT, sans-serif;
+	color: sandybrown;
+	text-align:left;
+	font-size: 30px;
+	padding: 50px;
+	padding-top: 20PX;
+
+}
+.services .services-content{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.services .services-content .card{
+	width: ; calc(30% - 00px);
+	text-align: left;
+	border-radius: 2px;
+	padding: 5px 5px;
+}
+.services .services-content .card img{
+	height: 80px;
+	width: 80px;
+
+}
+.services .services-content .card:hover{
+	background: white;
+}
+.services .services-content .card .box{
+	transition: all 0.5s ease;
+}
+.services .services-content .card .box:hover{
+	transform: scale(1.05);
+
+}
+.services .services-content .text{
+	font-family: 'Carla Sans Semibold', sans-serif;
+	font-size: 15px;
+	color: burlywood;
+}
+
+.services .services-content p{
+	font-family: 'IM FELL DW Pica', sans-serif;
+	font-size: 25px;
+	color: sandybrown;
+	font-weight: 600;
+	margin: 10px 0;
+
+}
+/*Style for Discography Section */
+.discography{
+	display: flex;
+	background: url(images/taylor1.png); repeat center;
+	color: white;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Futura MdCn BT', sans-serif;
+	font-size: 40px;
+}
+.discography .title{
+	text-align: center;
+	font-size: 40px;
+	padding-bottom: 50px;
+	padding-top: 20px;
+}
+.discography .discography-content{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.discography .discography-content .column{
+	width: calc(100% - 30px);
+}
+.discography .discography-content .left .text{
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.discography .discography-content .left p{
+	text-align: justify;
+	font-size: 18px;
+	justify-content: space-between;
+}
+
+.discography .discography-content .left a{
+	display: inline-block;
+	background: darkred;
+	color: white;
+	font-size: 25px;
+	padding: 12px 36px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-radius: 2px;
+}
+.discography .discography-content .left a:hover{
+	color: darkred;
+	background: peachpuff;
+}
+.discography .discography-content .right .bar{
+	margin-bottom: 15px;	
+}
+.discography .discography-content .right .info{
+	display: flex;
+	margin-bottom: 5px;
+	align-items: center;
+	justify-content: space-between;
+}
+.discography .discography-content .right span{
+	font-weight: 600;
+	font-size: 30px;
+	padding: 5px;
+	padding-left: 5px;
+}
+.discography .discography-content .right .line{
+	height: 3px;
+	width: 100%;
+	background: lightgrey;
+	position: relative;
+}
+.discography .discography-content .right p{
+	font-size: 20px;
+	font-weight: 30;
+	font-family: 'Futura MdCn BT', sans-serif;
+}
+.discography .discography-content .right .line::before{
+	content: "";
+	position: absolute;
+	height: 100%;
+	left: 0;
+	right: 0;
+	background: ;
+}
+.discography-content .right .TaylorSwift2006::before{
+	width: 95%;
+}
+
+.discography-content .right .Fearless::before{
+	width: 95%;
+}
+
+.discography-content .right .SpeakNow::before{
+	width: 95%;
+}
+
+.discography-content .right .RED::before{
+	width: 95%;
+}
+
+.discography-content .right .1989::before{
+	width: 95%;
+}
+
+.discography-content .right .reputation::before{
+	width: 95%;
+}
+
+.discography-content .right .Lover::before{
+	width: 95%;
+}
+
+.discography-content .right .folklore::before{
+	width: 95%;
+}
+
+.discography-content .right .evermore::before{
+	width: 79%;
+}
+
+.discography-content .right .FearlessTaylorsVersion::before{
+	width: 76%;
+}
+
+.discography-content .right .RedTaylorsVersion::before{
+	width: 85%;
+}
+
+/* Contact Styling */
+.contact{
+	font-family: 'IM FELL DW Pica', sans-serif;
+	background: url(images/taylor33.jpg);
+	background-attachment: fixed;
+	color: ghostwhite;
+}
+.contact .title{
+	text-align: center;
+	font-family: Futura MdCn BT;
+	font-size: 40px;
+	padding-bottom: 50px;
+	color:snow;
+}
+.contact .contact-content{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.contact .contact-content .column{
+	width: calc(50% - 30px);
+}
+.contact .contact-content .column .text{
+	color: white;
+	font-size: 25px;
+	font-weight: 600;
+	margin: 10px 0;
+}
+.contact .contact-content .row{
+	display: flex;
+	height: 65px;
+	align-items: center;
+}
+.contact .contact-content .left p{
+	font-size: 18px;
+	text-align: justify;
+}
+.contact .contact-content .row .info{
+	margin-left: 30px;
+}
+.contact .contact-content .left img{
+	height: 20px;
+	width: 20px;
+}
+.contact .contact-content .info .head{
+	color: white;
+	font-weight: 600;
+	padding: 5px;
+}
+.contact .contact-content .info .sub-title{
+	font-weight: 600;
+}
+.contact .right form .fields{
+	display: flex;
+}
+.contact .right form .field,
+.contact .right form .fields .field{
+	height: 45px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.contact .right form .textarea{
+	height: 80px;
+	width: 100%;
+}
+.contact .right form .name{
+	margin-right: 10px;
+}
+.contact .right form .email{
+	margin-left: 10px
+}
+.contact .right form .field input,
+.contact .right form .textarea textarea{
+	height: 100%;
+	width: 100%;
+	border: 1px solid lightgray;
+	border-radius: 6px;
+	outline: none;
+	padding: 0 15px;
+}
+.contact .right form .field input:focus,
+.contact .right form .textarea textarea:focus{
+	border-color: darkred;
+}
+.contact .right form .textarea textarea{
+	padding-top: 10px;
+	resize: none;
+}
+.contact .right form .button{
+	height: 50px;
+	width: 150px;
+}
+.contact .right form .button button{
+	width: 100%;
+	height: 100%;
+	background: darkred;
+	border: 2px solid darkred;
+	outline: none;
+	color: white;
+	font-size: 18px;
+	font-weight: 200;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.contact .right form .button button:hover{
+	color: darkred;
+	border: 2px solid peachpuff;
+	background: peachpuff;
+}
+/* Footer Styling */
+	footer{
+		font-family: 'IM FELL DW Pica', sans-serif;
+		color: black;
+		background: url(images/taylor57.png);
+		text-align: left; 
+		padding: 150px 150px;
+}
+footer span{
+	color: brown;
+}
+footer span a{
+	color: darkred;
+}
+footer span a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+/* Responsive Media Query */
+@media (max-width: 1920px){
+	.home .max-width{
+		margin-left: : 0px;
+	}
+	.menu-btn{
+		display: none;
+		z-index: 999;
+	}
+}
+@media (max-width: 1104px) {
+	.about .about-content .left img{
+		height: 350px;
+		width: 350px;
+	}
+
+}
+@media (max-width: 991px) {
+	.max-width{
+		padding: 0 50px;
+	}
+	.menu-btn{
+		display: none;
+		z-index: 999;
+	}
+}
+
+@media (max-width: 947px){
+	.menu-btn{
+		display: block;
+		z-index: 999;
+	}
+	.navbar .menu{
+		position: fixed;
+		height: 80vh;
+		width: 100%;
+		left: -100%;
+		top: 0;
+		background: grey;
+		opacity: 50%;
+		text-align: center;
+		padding-top: 80px;
+		transition: all 0.3s ease;
+	}
+	.navbar .menu.active{
+		left: 0;
+	}
+	.navbar .menu{
+		display: block;
+	}
+	.navbar .menu li a{
+		display: inline-block;
+		margin: 20px;
+		font-size: 30px;
+
+	}
+	.home .home-content .text-1{
+		font-size: 35px;
+	}
+	.home .home-content a{
+		font-size: 18px;
+		padding: 10px 30px ;
+	}
+	.max-width{
+		max-width: 930px;
+	}
+	.about .about-content column{
+		width: 100%;	
+	}
+	.about .about-content .left{
+		display: flex;
+		justify-content: center;
+		margin: 0 auto 60px;
+	}
+	.about .about-content .right{
+		flex: 100%;
+	}
+	.services .services-content .card{
+		width: calc(50% - 10px);
+		margin-bottom: 35px;	
+	}
+	.discography .discography-content .column,
+	.contact .contact-content .column{
+		width: 100%;	
+		margin-bottom: 35px;
+	}	
+}
+@media (max-width: 690px){
+	.max-width{
+		padding: 0 23px;
+	}
+	.services .services-content .card{
+		width: 100%;	
+	}
+}
+@media (max-width: 500px){
+	.contact .right form .fields{
+		flex-direction: column;
+	}
+	.contact .right form .name,
+	.contact .right form .email{
+		margin: 0;
+	}
+}
+
